@@ -1,0 +1,105 @@
+.homepage-form{
+    width: 600px;
+    color: black;
+}
+
+.top-padding-hp-form{
+    font-size: 1.3rem;
+    background-color: #FCF8F4;
+    padding: 20px 40px;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.top-padding-hp-form button{
+    border: 1px solid rgba(128, 128, 128, 0.463);
+    border-radius: 2px;
+    color:hsl(213, 60%, 18%);
+    background-color: #FFFFFF;
+    padding: 5px 12px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.user-form-login{
+    background-color: white;
+    padding: 15px 45px 45px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.user-form-register{
+    background-color: white;
+    padding: 15px 45px 45px 40px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.homepage-form h1{
+    font-size: 18px;
+    font-weight: 500;  
+}
+
+.select-country{
+    text-indent: 20px;
+}
+
+.bottom-padding-hp-form{
+    background-color: #FCF8F4;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.hp-form-btn{
+    font-size: 1rem;
+    padding: 0px 25px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: hsl(213, 60%, 18%);
+}
+
+.login-with-google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 3px 15px;
+    border: rgba(128, 128, 128, 0.299) 1px solid;
+    font-size: 0.8rem;
+    color: black;
+    text-decoration: none;
+}
+
+.login-with-google img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.error{
+    color: red;
+    font-size: 0.8rem;
+    margin-bottom: -20px;
+}
+
+.show-pass-btn{
+    position: absolute;
+    background: none;
+    border: none;
+    outline: none;
+    top: 36px;
+    right: 2px;
+}
+
+.show-pass-btn img{
+    width: 20px;
+}
